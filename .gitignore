@@ -1,0 +1,35 @@
+# ============================================================
+# FTW Field Segmentation — local / generated assets
+# ============================================================
+
+# Raw and intermediate datasets
+data/raw/
+data/interim/
+prepared_spain/
+
+# Model checkpoints
+models/*.pth
+
+# Large prediction rasters
+outputs/test_evaluation/predictions/
+outputs/debug_cpu_inference/
+spain_validation_predictions/
+
+# Archives
+*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Invalid / exploratory CPU inference notebook
+notebooks/spain_test_ftw.ipynb
+*.backup.ipynb

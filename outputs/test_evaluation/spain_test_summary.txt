@@ -1,0 +1,16 @@
+Spain Held-Out Test Evaluation
+================================
+
+Model: best_model.pth
+Confidence threshold: 0.30
+Test tiles: 216
+
+Mean IoU:       0.4938
+Median IoU:     0.5122
+Std IoU:        0.2525
+Mean Precision: 0.8321
+Mean Recall:    0.5115
+Mean F1/Dice:   0.6551
+
+Empty GT tiles:   15
+Empty pred tiles: 27
