@@ -247,9 +247,15 @@ experiments and is outside the scope of the current project.
 
 ## Data
 
-This project uses the **Fields of the World (FTW)** dataset.
+This project uses the **Fields of the World (FTW)** dataset, with **Spain** selected as the case study.
 
-Raw FTW imagery and labels are not redistributed in this repository.
+- **Dataset:** Fields of the World (FTW)
+- **Region:** Spain
+- **Imagery:** Sentinel-2 RGB + NIR
+- **Source:** [Fields of the World](https://fieldsofthe.world/)
+- **Repository:** [Fields of the World — GitHub](https://github.com/fieldsoftheworld/fieldsoftheworld)
+
+Raw imagery and labels are not redistributed in this repository. Only derived analytical outputs required to document the workflow and results are included.
 
 ---
 
